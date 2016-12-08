@@ -3,7 +3,7 @@
 [![N|Solid](http://adtheorent.com/v2/wp-content/uploads/2016/12/adtLogoSmall.png )](http://www.adtheorent.com)
 
 The public-asset-scanner is a tool to help you audit and track public IPs utilized within your Amazon Web Services acount(s). It's output consists of public IP addresses, identifier strings and regions and the service used. It's output could be used for:
-  - Your favorite IPAM (IP Address Management) toolM
+  - Your favorite IPAM (IP Address Management) tool
   - AWS Security Group Auditing
   - Pass IPs to security scan tools such as:
   -- nmap
