@@ -26,7 +26,7 @@ import java.io.IOException;
  */
 public abstract class IpData {
 
-    public abstract ScanResults scan() throws IOException;
+        public abstract ScanResults scan() throws IOException;
     public abstract ScanResults scan(Regions region) throws IOException;
 
     public final void write(File filename, WriterManager writer) throws IOException {

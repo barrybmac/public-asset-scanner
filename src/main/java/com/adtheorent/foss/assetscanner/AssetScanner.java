@@ -39,7 +39,7 @@ public class AssetScanner {
             // Make a new writer manager for our scan
             WriterManager writerMgr = new WriterManager();
 
-            // WriterManager provide standard 4 column output
+            // WriterManager provides standard 4 column output
             // in RFC4180 CSV (ip,id,region,service)
             File elasticIPs = new File("/tmp/elastic-ips.csv");
             File loadBalancers = new File("/tmp/loadBalancers.csv");

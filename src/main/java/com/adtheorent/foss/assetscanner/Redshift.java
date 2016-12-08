@@ -46,6 +46,12 @@ public class Redshift extends IpData {
         return result;
     }
 
+    /**
+     * scan a specific region
+     * @param region
+     * @return ScanResults
+     * @throws IOException
+     */
     public ScanResults scan(Regions region) throws IOException {
         ScanResults subresult = new ScanResults();
         try {
